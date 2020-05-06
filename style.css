@@ -67,30 +67,33 @@ body{
 }
 .feature-card img{
     float: right;
-    height: 50px;
-    width: 50px;
+    height: 90px;
+    width: 90px;
     margin: 10px;
 }
 .card-1{
 grid-area: left;
 margin-top: 100px;
-border-top: solid 3px  #45d3d3;
+border-top: solid 6px  #45d3d3;
+border-left: solid 6px  #45d3d3;
 }
 .card-2{
 grid-area: center;
-border-top: solid 3px  #ea5353;
+border-top: solid 6px  #ea5353;
+border-left: solid 6px  #ea5353;
 }
 .card-3{
 grid-area: center;
 grid-row: 2/2;
 margin-top: -100px;
-border-top: solid 3px  #549ef2
-;
+border-top: solid 6px  #549ef2;
+border-left:solid 6px  #549ef2;
 }
 .card-4{
 grid-area: right;
 margin-top: 100px;
-border-top: solid 3px  #fcaf4a;
+border-top: solid 6px  #fcaf4a;
+border-left:solid 6px  #fcaf4a;
 }
 
 .attribution {
